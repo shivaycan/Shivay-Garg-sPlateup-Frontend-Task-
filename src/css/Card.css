@@ -1,0 +1,69 @@
+.card {
+  box-shadow: 0px 3.39px 26.26px 0px #0000001f;
+  background-color: #ffffff;
+  border-radius: 16px;
+  height: 485px;
+  min-width: 493px;
+  position: relative;
+}
+
+.card-content img{
+  background-size: cover;
+}
+
+.heart_rates {
+  padding: 10px 14px;
+  text-align: center;
+  border-radius: 67px;
+  width: max-content;
+  position: absolute;
+  bottom: 180px;
+  left: 20px;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  background-color: #ffffffde;
+}
+
+.heartRate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.heartRate .values {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+}
+
+.heartRate .values span {
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #919191;
+}
+
+.bottom-content {
+  margin-top: 32px;
+  margin-left: 27px;
+  margin-bottom: 26px;
+  margin-right: 28px;
+}
+.Activities {
+  font-family: Inter;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.6px;
+  margin-bottom: 8px;
+}
+.activites-content {
+  font-family: Inter;
+  color: #919191;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
